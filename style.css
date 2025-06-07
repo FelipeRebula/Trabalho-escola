@@ -19,19 +19,23 @@ header{
     text-align: right;
     height: 8%;
 }
+a{
+    background-color: rgb(12, 12, 12);
+    text-decoration: 0;
+}
 header .bottons{
     height: 100%;
     margin-top: 10px;
     background-color: gray;
 }
-header .bottons button{
+header .bottons a{
 
     height: 30px;
 
     justify-content: center;
 
 }
-header button{
+header a{
     border: 0;
     color: rgb(0, 0, 0);
     background-color: gray;
@@ -40,7 +44,7 @@ header button{
     align-items: center;
     
 }
-header button:hover{
+header a:hover{
     background-color: rgb(67, 67, 67);
     transition: 0.01s;
     color: white;
@@ -52,9 +56,10 @@ body .titulo{
     height: 60px;
     font-size: 200%;
     margin-bottom: 20px;
+    padding-top: 10px;
 }
 body .titulo h1{
-    size-adjust: 100px;
+    font-size: 135%;
 }
 body .text{
     display: flex;
@@ -64,19 +69,19 @@ body .text{
     flex-direction: column;
     /*border: 1px solid white;*/
     border-radius: 10px;
+    align-items: center;
 
 }
 body .text h2{
     font-size: 40px;
 }
 body .text p{
-    width: 70%;
-    margin-left: 15%;
+    width: 85%;
+
     font-size: 23px;
 }
-body .text img{
+img{
     width: 35%;
-    margin-left: 30%;
     margin-top: 2%;
     margin-bottom: 2%;
 }
